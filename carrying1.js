@@ -1,5 +1,5 @@
 /**
- * частичная передача аргументов
+ * partly args passing
  *
  */
 const sum = (a, b ,c) => {
