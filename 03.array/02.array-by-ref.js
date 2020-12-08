@@ -8,3 +8,9 @@ let arr3 = [...arr1] // <-- make a new
 arr3.push(20)
 console.log('arr3:', arr3) // arr3: [1,2,3,4,5,10,20]
 console.log('arr1:', arr1) // arr1: [1,2,3,4,5,10] !!
+
+console.log('-----------')
+const arr = [1,2]
+const brr = arr
+brr[42,43]                    // make a NEW array by [] !!
+console.log('arr now:', arr)  // [1,2] !!
